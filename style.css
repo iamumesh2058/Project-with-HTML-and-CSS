@@ -86,7 +86,7 @@ a{
     top: 30vh;
     left: 5px;
     visibility: hidden;
-    opacity: 1;
+    opacity: 0;
     background-color: #f9f9f9;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -94,18 +94,18 @@ a{
     z-index: 1;
 }
   
-.header .nav-links .dropdown .dropdown-content a {
-    display: block;
-    padding: 12px 16px;
-}
-  
+
 .header .nav-links .dropdown:hover .dropdown-content {
     visibility: visible;
     opacity: 1;
     top: 10vh;
     transition: 0.4s;
 }
-  
+
+.header .nav-links .dropdown .dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+}
 .header .search {
     display: flex;
     align-items: center;
@@ -291,6 +291,7 @@ a{
 .container .image-container .card .details {
     position: absolute;
     top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     display: flex;
@@ -540,12 +541,10 @@ a{
 }
 
 .social-links1 i{
-    height: 50px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border: 3px solid white;
     color: white;
-    font-size: large;
-    font-weight: bold;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -991,7 +990,11 @@ input[type="text"]:focus {
         transform: translateX(-320px);
         transition: 0.5s ease-in;
     }
+    .header .search .burger:hover .header .nav-links{
+        transform: translateX(0) !important;
+    }
     .header .nav-links .dropdown {
+        height: auto;
         width: 100%;
     }
     .header .nav-links .dropdown .dropdown-content {
@@ -1097,3 +1100,5 @@ input[type="text"]:focus {
 .nav-active{
     transform: translateX(0) !important;
 }
+
+
