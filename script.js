@@ -7,5 +7,4 @@ const navSlide = () => {
     });
 }
 
-
 navSlide()

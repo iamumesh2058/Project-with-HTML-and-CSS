@@ -2,14 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-html{
     scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
+    transition: all 10s;
 }
 
 a{
@@ -22,9 +20,9 @@ a{
 }
 
 #to-top{
-    position: fixed;
-    right: 15px;
-    bottom: 90px;
+    position: sticky;
+    left: 95%;
+    top: 90%;
     height: 40px;
     width: 40px;
     border-radius: 5px;
@@ -33,6 +31,7 @@ a{
     align-items: center;
     background-color: #fd5c63;
     color: white;
+    z-index: 10;
 }
 
 .header{
@@ -246,9 +245,10 @@ a{
 
 /* start container */
 .container {
-    margin: 10vh 10vw;
+    padding: 10vh 10vw;
 }
 
+/* background-color: white; */
 
 /* start intro */
 .intro {
@@ -398,11 +398,11 @@ a{
 }
 /* end stats */
 
-
-
 /* Start Frequently asked question */
 .container .fre-question {
     padding: 25px 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container .fre-question .wrapper {
@@ -543,7 +543,7 @@ a{
 .social-links1 i{
     height: 35px;
     width: 35px;
-    border: 3px solid white;
+    border: 2px solid white;
     color: white;
     border-radius: 5px;
     display: flex;
@@ -678,7 +678,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0 2vw;
-  }
+}
   
 .container .blog .image-container {
     width: 270px;
@@ -700,7 +700,6 @@ a{
     height: 100%;
     width: 100%;
 }
-  
   
 .container .blog .image-container .detail {
     margin: 15px;
@@ -1097,8 +1096,7 @@ input[type="text"]:focus {
     }
 }
 
+
 .nav-active{
     transform: translateX(0) !important;
 }
-
-
