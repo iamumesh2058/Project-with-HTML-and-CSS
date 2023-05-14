@@ -1028,6 +1028,7 @@ input[type="text"]:focus {
     .container .image-container .card2 {
         grid-row: 2/3;
         grid-column: 1/2;
+        height: 356px;
     }
     .container .count{
         display: grid;
