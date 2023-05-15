@@ -471,6 +471,36 @@ a{
     font-size: larger;
     color: black;
 }
+
+.container .wrapper .ratings .rating .slider {
+    margin: 10px 0;
+    height: 5px;
+    position: relative;
+}
+
+.container .wrapper .ratings .rating .s1{
+    width: 80%;
+    background: linear-gradient(to right, #0E8BBC, #5FFAEC);
+}
+.container .wrapper .ratings .rating .s2{
+    width: 95%;
+    background: linear-gradient(to right, #D5572B, #EDCA8D);
+}
+.container .wrapper .ratings .rating .s3{
+    width: 60%;
+    background: linear-gradient(to right, #6251FD, #F347AB);
+}
+.container .wrapper .ratings .rating .s4{
+    width: 85%;
+    background: linear-gradient(to right, #E77655, #E55497);
+}
+
+
+.container .wrapper .ratings .rating .slider p {
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
 /* End Frequently asked question */
 
 
