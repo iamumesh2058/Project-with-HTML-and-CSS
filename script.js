@@ -6,5 +6,13 @@ const navSlide = () => {
         nav_link.classList.toggle('nav-active');
     });
 }
+navSlide();
 
-navSlide()
+
+// For toggling between dark theme and light theme
+const theme = () => {
+    document.querySelector('body').classList.toggle('dark');
+}
+
+
+dark.addEventListener('click', theme);
