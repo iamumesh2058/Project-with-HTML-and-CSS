@@ -1,2 +1,2 @@
 # Projects
-HTML CSS project
+This is the project I have done when I have completed learnign about HTML and CSS. While developing this website I got the chance to implement the things I have learned and also learned things that I am unaware of. This is the copy of website that I found in W3layouts.com. I tried to replicate the website as much as possible. This replication helped me to understands how CSS actually and how we can play with CSS to create visually appealing website.
